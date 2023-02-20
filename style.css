@@ -10,6 +10,10 @@
   font-size: 62.5%;
 }
 
+#app {
+  width: 100%;
+}
+
 .img1-absolute {
   position: absolute;
   top: 0;

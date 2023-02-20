@@ -11,14 +11,12 @@
 }
 
 .img1-absolute {
-  width: 100%;
   position: absolute;
   top: 0;
   left: 0;
 }
 
 .img2-absolute {
-  width: 100%;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -83,12 +81,11 @@ form button:hover {
 
 #hero {
   background-color: #f4f4ff;
-
   height: 53.2rem;
+}
 
-  display: flex;
-  flex-direction: column;
-  gap: 4rem;
+.content {
+  padding-top: 8rem;
 }
 
 .content p {
@@ -96,7 +93,6 @@ form button:hover {
   line-height: 2.5rem;
   color: #e45858;
   text-align: center;
-  margin-bottom: 1.8rem;
 }
 
 .content h1 {
@@ -120,6 +116,7 @@ form button:hover {
   border-radius: 10px;
 
   width: 99.3rem;
+  margin-inline: auto;
 
   display: flex;
   gap: 2.4rem;
@@ -224,8 +221,12 @@ form button:hover {
     height: 100rem;
   }
 
-  .content h1 {
-    margin-top: 15rem;
+  .content {
+    padding-top: 22rem;
+  }
+
+  .content h1,
+  .content p {
     position: relative;
     z-index: 1;
   }
@@ -249,5 +250,11 @@ form button:hover {
   .cards img {
     width: 100%;
   }
+
+  .img1-absolute,
+  .img2-absolute {
+    width: 25rem;
+  }
 }
+
 
